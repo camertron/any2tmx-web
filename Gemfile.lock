@@ -1,0 +1,52 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    any2tmx (1.0.1)
+      htmlentities (~> 4.3)
+      nokogiri (~> 1.6)
+      xml-write-stream (~> 1.0)
+    backports (3.6.7)
+    coderay (1.1.0)
+    htmlentities (4.3.4)
+    method_source (0.8.2)
+    mini_portile2 (2.0.0)
+    multi_json (1.11.2)
+    nokogiri (1.6.7.2)
+      mini_portile2 (~> 2.0.0.rc2)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-nav (0.2.4)
+      pry (>= 0.9.10, < 0.11.0)
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    sinatra (1.4.7)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    sinatra-contrib (1.4.6)
+      backports (>= 2.0)
+      multi_json
+      rack-protection
+      rack-test
+      sinatra (~> 1.4.0)
+      tilt (>= 1.3, < 3)
+    slop (3.6.0)
+    tilt (2.0.2)
+    xml-write-stream (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  any2tmx (~> 1.0)
+  pry-nav
+  sinatra (~> 1.4)
+  sinatra-contrib (~> 1.4)
+
+BUNDLED WITH
+   1.11.2
