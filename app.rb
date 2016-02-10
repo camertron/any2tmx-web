@@ -2,8 +2,6 @@ require 'sinatra'
 require 'sinatra/contrib'
 require 'any2tmx'
 
-require 'pry-nav'
-
 module Any2TmxWeb
   class Application < Sinatra::Base
     Options = Struct.new(:source, :target, :source_locale, :target_locale)
