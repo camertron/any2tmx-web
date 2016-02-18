@@ -1,7 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    any2tmx (1.0.3)
+    any2tmx (1.0.4)
       htmlentities (~> 4.3)
       nokogiri (~> 1.6)
       xml-write-stream (~> 1.0)
